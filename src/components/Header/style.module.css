@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  box-shadow: 1px 1px 3px 2px rgba(36, 41, 46, .1);
+  padding: var(--spacing-xlarge) var(--spacing-xxlarge);
+
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-logo {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: x-large;
+
+}
+
+.header-title {
+  font-size: var(--spacing-xxlarge);
+}
+
+.header-login {
+  padding: var(--spacing-small) var(--spacing-xlarge);
+  border: 1px solid var(--color-primary);
+  background-color: transparent;
+  color: var(--color-primary);
+  border-radius: 500px;
+  font-weight: 700;
+}

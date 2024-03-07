@@ -1,0 +1,27 @@
+.our-mission {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  min-height: 360px;
+  padding: var(--spacing-xlarge);
+  background-color: #f1f7fc;
+}
+
+.our-mission--container {
+  width: 100%;
+}
+
+.our-mission--title {
+  font-weight: 700;
+  margin-bottom: var(--spacing-large);
+}
+
+.our-mission--description {
+  width: 50%;
+  margin: 0 auto;
+}
